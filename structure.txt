@@ -1,0 +1,13 @@
+quran_app/
+│
+├── app.py                     # Main Streamlit app
+├── utils/
+│   ├── __init__.py
+│   ├── quran_loader.py        # Loading Arabic & English text
+│   ├── text_cleaning.py       # Diacritic removal, etc.
+│   └── xml_parser.py          # Parsing metadata from XML
+│
+├── data/
+│   ├── quran-simple.txt
+│   ├── en.ahmedali.txt
+│   └── quran-data.xml         # Your XML metadata file
