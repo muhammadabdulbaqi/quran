@@ -18,15 +18,6 @@ This is a Streamlit-based web application designed to explore the Quran in both 
      - Surah order in the Quran
    - Users can choose to view the most common words in either Arabic or English within the Surah, visualized in a bar chart.
 
-## App Structure
-
-### Directory Structure:
-quran_app/ │ ├── app.py # Main Streamlit app ├── utils/ │ ├── init.py │ ├── quran_loader.py # Load Quran text data (Arabic and English) │ ├── text_cleaning.py # Text cleaning utilities (e.g., diacritic removal) │ └── xml_parser.py # Parse Quran metadata from XML │ ├── visualizations/ │ ├── init.py │ └── charts.py # Functions for generating charts (e.g., Surah occurrences, word frequency) │ ├── data/ │ ├── quran-simple.txt # Arabic Quran text │ ├── en.ahmedali.txt # English Quran translation │ └── quran-data.xml # Surah metadata (XML)
-
-markdown
-Copy
-Edit
-
 ### Key Functions:
 
 - **app.py**: Main script running the Streamlit app.
@@ -40,17 +31,9 @@ Edit
 1. **Clone the repository**:
 git clone https://github.com/yourusername/quran-explorer.git cd quran-explorer
 
-markdown
-Copy
-Edit
-
 2. **Install required dependencies**:
 Ensure you have Python 3.x installed, and then use `pip` to install required libraries.
 pip install -r requirements.txt
-
-markdown
-Copy
-Edit
 
 3. **Download Quran Data**:
 Ensure that the `data` folder contains the following files:
@@ -62,9 +45,6 @@ Ensure that the `data` folder contains the following files:
 To start the app, run:
 streamlit run app.py
 
-pgsql
-Copy
-Edit
 
 5. **Open the app**:
 The app will be available in your browser at `http://localhost:8501`.
