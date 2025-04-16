@@ -163,9 +163,6 @@ A Streamlit web application to search and explore the Quran in both Arabic and E
 - Visualize Surah-wise frequency of search terms
 - Explore individual Surahs: metadata, most common words, verse count
 
-## 🗂 Project Structure
-
-quran_app/ │ ├── app.py ├── logic/ │ ├── search_logic.py │ └── explore_logic.py ├── utils/ │ ├── quran_loader.py │ ├── text_cleaning.py │ └── xml_parser.py ├── visualizations/ │ └── charts.py ├── data/ │ ├── quran-simple.txt │ ├── en.ahmedali.txt │ └── quran-data.xml └── README.md
 
 
 
