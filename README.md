@@ -175,6 +175,13 @@ quran_app/ │ ├── app.py ├── logic/ │ ├── search_logic.py �
 - [ ] Add unit tests
 - [ ] Export context results to CSV
 - [ ] Support root-based search (Arabic only)
+- [ ] New visualizations
+  - [ ] Add Word Cloud for overall frequent words
+  - [ ] Add most frequent bigrams and trigrams with optional stopword filtering
+  - [ ] Surah-wise statistics (longest Surah, avg verse length)
+  - [ ] Chronological stats (Meccan vs Medinan trends)
+  - [ ] Optional: Keyword heatmap or density by Surah
+
 
 ## ✅ How to Run
 
