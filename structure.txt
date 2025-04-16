@@ -1,13 +1,25 @@
 quran_app/
 │
-├── app.py                     # Main Streamlit app
-├── utils/
+├── app.py                    # Main Streamlit logic (UI only)
+├── logic/
 │   ├── __init__.py
-│   ├── quran_loader.py        # Loading Arabic & English text
-│   ├── text_cleaning.py       # Diacritic removal, etc.
-│   └── xml_parser.py          # Parsing metadata from XML
+│   ├── search_logic.py       # Word search, contextual analysis
+│   └── explore_logic.py      # Surah exploration logic
+│
+├── utils/
+│   ├── quran_loader.py       # Arabic/English text loading
+│   ├── text_cleaning.py      # Diacritic removal, etc.
+│   └── xml_parser.py         # Metadata parser
+│
+├── visualizations/
+│   ├── __init__.py
+│   └── charts.py             # Matplotlib chart for surah-wise plot
 │
 ├── data/
 │   ├── quran-simple.txt
 │   ├── en.ahmedali.txt
-│   └── quran-data.xml         # Your XML metadata file
+│   └── quran-data.xml
+│   └── stop_ar.txt
+│   └── stop_en.txt
+│
+└── README.md
