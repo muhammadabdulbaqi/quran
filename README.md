@@ -1,4 +1,4 @@
-# 📖 Quran Explorer
+<!-- # 📖 Quran Explorer
 
 This is a Streamlit-based web application designed to explore the Quran in both Arabic and English. The app allows users to search for words/phrases in the Quran, filter results by Surah, view word frequency in a selected Surah, and generate visualizations for insights.
 
@@ -91,7 +91,7 @@ Feel free to fork the repository and create pull requests if you would like to c
 
 ## License
 
-This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details. -->
 
 <!-- 📘 Quran Explorer App
 This is a Streamlit-based app that allows users to:
@@ -149,3 +149,35 @@ Support for Arabic and English word cloud-like visualizations
  Add audio recitation support
 
  Add tafsir integration -->
+
+
+ # 📖 Quran Explorer App
+
+A Streamlit web application to search and explore the Quran in both Arabic and English with contextual analysis and visual insights.
+
+## 🌟 Features
+
+- Search for Arabic or English words in the Quran
+- Contextual analysis: view surrounding phrases before/after any word
+- Filter results by Surah
+- Visualize Surah-wise frequency of search terms
+- Explore individual Surahs: metadata, most common words, verse count
+
+## 🗂 Project Structure
+
+quran_app/ │ ├── app.py ├── logic/ │ ├── search_logic.py │ └── explore_logic.py ├── utils/ │ ├── quran_loader.py │ ├── text_cleaning.py │ └── xml_parser.py ├── visualizations/ │ └── charts.py ├── data/ │ ├── quran-simple.txt │ ├── en.ahmedali.txt │ └── quran-data.xml └── README.md
+
+
+
+## 🚧 TODO
+
+- [ ] Comment all Python files to explain functionality line-by-line
+- [ ] Add unit tests
+- [ ] Export context results to CSV
+- [ ] Support root-based search (Arabic only)
+
+## ✅ How to Run
+
+
+pip install -r requirements.txt
+streamlit run app.py
