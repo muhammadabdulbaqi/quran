@@ -112,3 +112,60 @@ Feel free to fork the repository and create pull requests if you would like to c
 ## License
 
 This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+<!-- 📘 Quran Explorer App
+This is a Streamlit-based app that allows users to:
+
+Search for words in the Quran (Arabic or English)
+
+Filter results by Surah
+
+View Surah-wise word occurrence counts
+
+Explore word proximity (words before/after the search term)
+
+View most frequent words in a Surah (Arabic or English)
+
+Explore Surah metadata and structure
+
+📂 Project Structure
+bash
+Copy
+Edit
+quran_app/
+│
+├── app.py                     # Main Streamlit app
+├── data/
+│   ├── quran-simple.txt       # Arabic Quran text
+│   ├── en.ahmedali.txt        # English translation
+│   └── quran-data.xml         # Quran Surah metadata
+├── utils/
+│   ├── __init__.py
+│   ├── quran_loader.py        # Load Quran text files
+│   ├── text_cleaning.py       # Remove diacritics, etc.
+│   └── xml_parser.py          # Parse XML metadata
+└── visualizations/
+    └── charts.py              # Chart plotting functions
+✅ Features
+Word search in Arabic (with diacritic normalization) and English
+
+Surah-based filtering after search
+
+Surah-wise frequency charts
+
+Contextual word analysis (before and after the search word)
+
+Surah-level word frequency bar charts
+
+Support for Arabic and English word cloud-like visualizations
+
+🔧 To-Do
+ Add full code comments to explain how everything works
+
+ Add export options (CSV, JSON)
+
+ Integrate word cloud visualization (using wordcloud or altair)
+
+ Add audio recitation support
+
+ Add tafsir integration -->
