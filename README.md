@@ -162,9 +162,7 @@ A Streamlit web application to search and explore the Quran in both Arabic and E
 - Filter results by Surah
 - Visualize Surah-wise frequency of search terms
 - Explore individual Surahs: metadata, most common words, verse count
-
-
-
+- Word Cloud - currently no feature for arabic txt
 
 ## 🚧 TODO
 
@@ -173,11 +171,11 @@ A Streamlit web application to search and explore the Quran in both Arabic and E
 - [ ] Export context results to CSV
 - [ ] Support root-based search (Arabic only)
 - [ ] New visualizations
-  - [ ] Add Word Cloud for overall frequent words
-  - [ ] Add most frequent bigrams and trigrams with optional stopword filtering
-  - [ ] Surah-wise statistics (longest Surah, avg verse length)
-  - [ ] Chronological stats (Meccan vs Medinan trends)
-  - [ ] Optional: Keyword heatmap or density by Surah
+  - [x] Word cloud of most frequent words (Quran Insights)
+  - [x] Most frequent bigrams and trigrams
+  - [ ] Surah-level heatmaps
+  - [x] Meccan vs Medinan trend analysis (better way to do timeline?)
+
 
 
 ## ✅ How to Run

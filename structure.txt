@@ -5,6 +5,7 @@ quran_app/
 │   ├── __init__.py
 │   ├── search_logic.py       # Word search, contextual analysis
 │   └── explore_logic.py      # Surah exploration logic
+│   └── insights_logic.py     # Insights logic
 │
 ├── utils/
 │   ├── quran_loader.py       # Arabic/English text loading

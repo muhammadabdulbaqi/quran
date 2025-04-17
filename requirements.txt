@@ -2,3 +2,6 @@ streamlit
 pandas
 matplotlib
 lxml
+wordcloud
+plotly
+numpy
